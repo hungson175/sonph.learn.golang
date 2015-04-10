@@ -1,4 +1,4 @@
-package main
+package learngo
 
 import (
 	"fmt"
@@ -6,7 +6,10 @@ import (
 	"net/http"
 )
 
+//String is just for fun
 type String string
+
+//Tokenizer for fun
 type Tokenizer struct {
 	Greeting string
 	Punct    string
